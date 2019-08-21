@@ -1,0 +1,38 @@
+/* CSS Rules consist of three parts: */
+/* 1: Selector to select what element you're styling*/
+/* 2. Decelaration block where your CSS go*/
+/* 3. Declarations of CSS rules inside the declaration block */
+
+table, th, td {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+
+}
+
+table {
+    /* Set the width of the table elements to 100% of the width of the parent element */
+    width: 100%;
+    /* Set the background colkor of the table element to white */
+    background-color: white;
+}
+
+h1 { 
+    /* Aligning the text for thr h1 to center */
+    text-align: center;
+}
+
+th { 
+    /* Upping the font size for the table headers */ 
+    font-size: 20pt;
+    /* Underline the table header */
+    text-decoration: underline;
+
+}
+
+td {
+    /* Center the text for the table data elements */
+    text-align: center;
+    /* upping the font size for the table data elements */
+    font-size: 16pt;
+}
